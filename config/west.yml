@@ -18,3 +18,19 @@ manifest:
       import: app/west.yml
   self:
     path: config
+    
+diff --git a/config/west.yml b/config/west.yml
+index ac30a68..70ad540 100644
+--- a/config/west.yml
++++ b/config/west.yml
+@@ -13,8 +13,8 @@ manifest:
+       url: https://github.com/a741725193/zmk-new_corne
+       revision: main
+     - name: zmk
+-      remote: petejohanson
+-      revision: feat/pointers-with-input-processors
++      remote: zmkfirmware
++      revision: main
+       import: app/west.yml
+   self:
+     path: config
